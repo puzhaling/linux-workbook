@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ ! $# -eq 3 ] ; then
+	echo "Number of positional agruments is incorrect "
+	exit 1
+fi
+
+ONE=$1; SECOND=$2; THIRD=$3
+
+echo "There are ${#} parametres, which include ${@} parameters."
+echo "First is ${ONE}, second is ${SECOND}, third is ${THIRD}."

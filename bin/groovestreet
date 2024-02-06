@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mytown=$mytown
+mystreet=$mystreet
+
+read -p "Enter your town: " mytown
+read -p "Enter your street: " mystreet
+
+echo "Street, where I grew up is $mystreet, and town is ${mytown}."

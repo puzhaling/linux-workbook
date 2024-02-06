@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Today is $(date +"%a %b %d %T %z %Y")."
+echo "You are in $(pwd) currently and you hostname is - $HOSTNAME."
