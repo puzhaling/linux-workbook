@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -n "I've got: "
+for animal in moose cow goose sow; do
+	echo -n "$animal "
+done
+
+echo
+exit 0
+
